@@ -1,0 +1,1 @@
+sudo openvpn ~/fabphone/voip_rasp2_voip.ovpn
