@@ -241,8 +241,8 @@ Per installare tutto il materiale affinché il sistema Fabphone funzioni corrett
 
 ```sh
 sudo apt-get install mpg123 twinkle openvpn -y
-sudo pip3 install adafruit-circuitpython-matrixkeypad -y
-sudo pip3 install pynput -y
+sudo pip3 install adafruit-circuitpython-matrixkeypad
+sudo pip3 install pynput
 ```
 
 Al completamanto di questo passaggio si consiglia un reboot della Raspberry
