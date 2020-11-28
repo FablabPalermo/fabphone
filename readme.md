@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Descrizione del progetto
 
-Fabphone è un progetto ludico che si inspira ai "telefoni rossi" della guerra fredda. 
+Fabphone è un progetto ludico che si ispira ai "telefoni rossi" della guerra fredda. 
 Lo scopo del progetto è quello di coinvolgere i Fablab (quelli riportati su fablabs.io) in una iniziativa di co-progettazione attraverso la "gamification": ogni laboratorio costruisce la propria versione di questo telefono VoIP, personalizzando e migliorando hardware e software senza limiti. 
 Unica regola: tutti i fabphone devono essere in grado di telefonarsi, costituendo un client di una linea VoIP privata che connette i Fablab per comunicare, sperimentare e giocare. 
 Il progetto nasce da Falab Palermo, che ha creato i primi due telefoni e gestisce attualmente la rete VoIP Fabphone.
@@ -88,9 +88,14 @@ Una volta riavviato, per evitare che dopo l'assemblaggio di tutto il vostro Fabp
 
 
 
-scaricare e installare REALVNC Viwer per il vostro sistema operativo dal link https://www.realvnc.com/en/connect/download/viewer/ 
+Per gestire la Raspberry da remoto, scaricare e installare REALVNC Viwer per il vostro sistema operativo dal link https://www.realvnc.com/en/connect/download/viewer/ 
 
-recuperiamo l'IP della nostra rasp usando il comando 
+recuperiamo l'IP della nostra rasp usando il comando aprendo il terminale 
+
+ 
+
+<img src="doc/img/termianle.PNG">
+
 
 ```sh
 ifconfig wlan0     
@@ -108,7 +113,7 @@ ip.jpg
 
 user : pi 
 
-Password : la paswornd che ci siamo salvati durante il primo avvio 
+Password : la password che ci siamo salvati durante il primo avvio 
 
 
 
